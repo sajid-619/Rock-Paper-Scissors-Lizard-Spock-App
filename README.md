@@ -1,27 +1,34 @@
 # Rock-Paper-Scissors-Lizard-Spock-App
 
-This is a simple web page that uses transfer learning in Tensorflow.js to learn to distingish between 6 hand positions relating to the Game Rock, Paper, Scissors, Lizard, Spoc (http://www.samkass.com/theories/RPSSL.html):
+This is a simple web page that uses transfer learning in Tensorflow.js to learn to distingish between 6 hand positions relating to the Game Rock, Paper, Scissors, Lizard, Spoc 
 
-No gesture
-Rock gesture displayed
-Paper gesture displayed
-Scissors gesture displayed
-Lizard gesture displayed
-Spoc gesture displayed
+1.No gesture
+
+2.Rock gesture displayed
+
+3.Paper gesture displayed
+
+4.Scissors gesture displayed
+
+5.Lizard gesture displayed
+
+6.Spoc gesture displayed
+
 The App allows you to present an image of a hand (via your webcam) and select the gesture displayed. Each seperate image presented helps the app to learn the gesture.
 
 As the app learns, it will attempt to categorise newly presented images in real-time to determine the correct guesture.
 
 The more distinct images it learns the more accurate it should be.
 
-Installing and Running
+# Installing and Running
+
 The app is constructed as a single HTML page and can be run from the local file system in a recent Chrome browser.
 
 This has not been tested across different browsers
 
 The following instructions can be used to clone and run this application on your machine:
 
-Clone the repo from Git git clone https://github.com/BillMatthews/tensorflow-js-rpsls-app.git
+1. Clone the repo from Git git clone https://github.com/BillMatthews/tensorflow-js-rpsls-app.git
 Open the index.html file in a Chrome browser
 Allow the page to access your WebCam
 Using your WebCam train the app to recognise you showing no gesture, Rock, Paper, Scissors, Lizard and Spoc gesture (at least 1 for each category but more is better)
